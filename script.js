@@ -25,6 +25,8 @@ function btnDesencriptar(){
  atualizarVisibilidadeDiv2()
 };
 
+mensagem.addEventListener('input', atualizarVisibilidadeDiv2);
+texto1.addEventListener('input', atualizarVisibilidadeDiv2);
 
 let matrizCodigo = [["e", "enter"] , ["i" , "imes"] , ["a" , "ai" ] , ['o', 'ober'] , ["u", "ufat"]]
 console.table(matrizCodigo)
