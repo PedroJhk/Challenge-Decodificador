@@ -1,0 +1,185 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+
+*{margin: 0;
+    padding:0; }
+
+body{
+    background-color: #D8DFE8;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+       width: 100%;
+       height: 100%;
+}
+.conteudo{
+    height: 100%;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#section1{
+    display: flex;
+    flex-direction: column;
+    height:40rem;
+    width:80%;
+    align-items: center;
+    padding: 8% 9% 0% 0%;
+}
+
+.texto1{
+    width: 80%;
+    height: 70%;
+    background: none;
+    resize: none;
+    border: none;
+    outline: none;
+    color: #0A3871;
+    font-size: 200%;
+    font-family: 'Inter', 'SansSerif';
+}
+
+#section2{
+    background-color: #FFFFFF;
+    width: 25%;
+    height: 50rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 2rem;
+    margin: 0% 4% 0% 0%
+}
+
+.mensagem{
+    margin: 0% 0% 20% 0%;
+    resize: none;
+    border: none;
+    outline: none; 
+    height: 30%;
+    width: 90%;
+    font-size: 90%;
+    color: #0A3871;
+    font-family: 'Inter', 'SansSerif';
+}
+
+#Informacao{
+    display: flex;
+    align-items: center;
+    margin: 15% 35% 0rem 0rem
+
+}
+.botoes{
+    display: flex;
+    gap:3.5rem;
+    margin: 1% 0% 0% 0%;
+    width: 80%;
+    height: 12%
+}
+#button1{
+    height: 100%;
+    width: 100%;
+    border-radius: 1rem;
+    font-size: 100%;
+    background-color: #0A3871;
+}
+
+#button2{
+    height: 100%;
+    width: 100%;
+    border-radius: 1rem;
+    font-size: 100%;
+    
+}
+
+#copiar{
+    height: 14%;
+    width: 80%;
+    margin: 5% 0% 10% 0%;
+    border-radius: 1rem;
+    font-size: 100%;
+    
+}
+
+#logo{
+    padding: 1% 0% 0% 0%;
+    width: 100%;
+    height: 100%;
+}
+
+#img1{
+    width: 100%;
+}
+
+@media (max-width: 500px) {
+    .conteudo {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #section1{
+        width: 70%;
+        height: 15.5rem;
+        justify-content: center;
+        display: flex
+    }
+    #button1{
+        height:80%;
+        width: 30%;
+        font-size: 60%;
+    }
+    #button2{
+        height:80%;
+        width: 30%;
+        font-size: 60%;
+    }
+
+    .botoes{
+        height: 50%;
+        width: 150%;
+        justify-content: center;
+        display: flex
+    }
+
+    #section2{
+        width: 70%;
+        height: 30%;
+        padding: 10% 0%;
+        display: flex;
+        justify-content: center;
+    }
+    .mensagem{
+        margin: 0% 0% 20% 0%;
+        resize: none;
+        border: none;
+        outline: none;
+        width: 30%;
+        height: 100%; 
+        text-align: center;
+    }
+    #Informacao{
+        width: 120%;
+        height: 10%;
+    }
+    .vector{
+        width: 5%;
+        height: 60%;
+        margin: 5% 5% 5% 30%;
+    }
+    #logo{
+        width: 100%;
+        height:100%;
+    }
+     
+    #img1{
+        width: 100%;
+        display: none;
+
+    }
+}
+

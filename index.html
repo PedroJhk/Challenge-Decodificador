@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Desafio Alura</title>
+</head>
+<body>
+    <header id="logo">
+        <img src="img/Frame 6.png">
+    </header>
+
+    <main class="conteudo">
+        <section id="section1">        
+            <textarea class="texto1" wrap="soft" placeholder="Digite seu texto">
+            </textarea>
+          <div id="Informacao">
+          <img src="img/Vector.png" class="vector">
+          <p id="informacao_texto">
+            Apenas letras minúsculas e sem acento
+          </p>
+          </div>
+            <div class="botoes">
+                <button id="button1" onclick="btnEncriptar()">CRIPTOGRAFAR TEXTO</button> 
+                <button id="button2" onclick="btnDesencriptar()" >DESCRIPTOGRAFAR TEXTO</button> 
+            </div>
+        </section>
+          <section id="section2">
+            <textarea class="mensagem"  cols="50" rows="15"></textarea>
+            <div id="div2">
+            <img src="img/High quality products 1 1.png" id="img1">
+            <h1 class="texto2">Nenhuma mensagem encontrada</h1>
+            <p class="texto3">Digite um texto que você deseja criptografar ou descriptografar.</p>
+        </div>
+            <button id="copiar" onclick="copiar()" >COPIAR</button> 
+        </section>
+    </main>
+    <footer>
+    </footer>
+    <script src="script.js">
+
+    </script>
+</body>
+</html>
